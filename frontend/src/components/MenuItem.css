@@ -1,0 +1,87 @@
+.menu-item {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 22px;
+  padding: 24px;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.menu-item::before {
+  content: '';
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 50%;
+  top: -60px;
+  right: -60px;
+}
+
+.menu-item:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
+.menu-emoji {
+  font-size: 4rem;
+  margin-bottom: 12px;
+}
+
+.menu-item h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.menu-item p {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #ffd166;
+  margin-bottom: 18px;
+  position: relative;
+  z-index: 1;
+}
+
+.menu-item button {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 14px;
+  background: linear-gradient(
+    135deg,
+    #ff7b00,
+    #ffb703
+  );
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.menu-item button:hover {
+  transform: scale(1.06);
+  box-shadow: 0 10px 20px rgba(255, 123, 0, 0.4);
+}
+
+.menu-item button:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  .menu-item {
+    padding: 20px;
+  }
+
+  .menu-emoji {
+    font-size: 3.5rem;
+  }
+}
