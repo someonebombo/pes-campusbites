@@ -12,7 +12,7 @@ function App() {
 
       <header className="header">
 
-        <h1>🍔 PES CampusBites</h1>
+        <h1>🍔 PES Campus Bites</h1>
 
         <div className="buttons">
 
