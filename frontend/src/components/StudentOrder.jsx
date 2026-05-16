@@ -3,30 +3,137 @@ import api from '../services/api'
 import './StudentOrder.css'
 
 const menuItems = [
+
+  // 🥪 Street Food & Pav Favorites
   {
     id: 1,
     name: 'Vada Pav',
-    price: 30,
+    price: 20,
     emoji: '🍔'
   },
   {
     id: 2,
-    name: 'Pav Bhaji',
-    price: 90,
-    emoji: '🍛'
+    name: 'Mirchi Pav',
+    price: 15,
+    emoji: '🌶️'
   },
   {
     id: 3,
-    name: 'Chicken Roll',
-    price: 90,
-    emoji: '🌯'
+    name: 'Kurma Pav Bhaji',
+    price: 40,
+    emoji: '🍛'
   },
   {
     id: 4,
-    name: 'Mocktail',
-    price: 70,
+    name: 'Patal Bhaji Pav',
+    price: 30,
+    emoji: '🍲'
+  },
+  {
+    id: 5,
+    name: 'Mix Kurma Pav',
+    price: 40,
+    emoji: '🥣'
+  },
+  {
+    id: 6,
+    name: 'Ros Omelette Pav',
+    price: 60,
+    emoji: '🍳'
+  },
+
+  // 🍚 Rice & Main Course
+  {
+    id: 7,
+    name: 'Chicken Biryani',
+    price: 150,
+    emoji: '🍗'
+  },
+  {
+    id: 8,
+    name: 'Veg Fried Rice',
+    price: 100,
+    emoji: '🍚'
+  },
+
+  // 🌯 Rolls
+  {
+    id: 9,
+    name: 'Chicken Roll',
+    price: 50,
+    emoji: '🌯'
+  },
+  {
+    id: 10,
+    name: 'Mushroom Roll',
+    price: 30,
+    emoji: '🍄'
+  },
+  {
+    id: 11,
+    name: 'Paneer Roll',
+    price: 40,
+    emoji: '🧀'
+  },
+
+  // 🥤 Drinks & Beverages
+  {
+    id: 12,
+    name: 'Coca-Cola (Can)',
+    price: 20,
+    emoji: '🥤'
+  },
+  {
+    id: 13,
+    name: 'Pepsi (Can)',
+    price: 20,
+    emoji: '🥤'
+  },
+  {
+    id: 14,
+    name: 'Sprite (Can)',
+    price: 20,
+    emoji: '🥤'
+  },
+  {
+    id: 15,
+    name: 'Normal Soda',
+    price: 10,
+    emoji: '🫧'
+  },
+  {
+    id: 16,
+    name: 'Refreshing Mocktail',
+    price: 50,
     emoji: '🍹'
+  },
+  {
+    id: 17,
+    name: 'Maaza Mango Drink',
+    price: 40,
+    emoji: '🥭'
+  },
+
+  // 🍱 Meals & Thalis
+  {
+    id: 18,
+    name: 'Standard Veg Thali',
+    price: 100,
+    emoji: '🍱'
+  },
+  {
+    id: 19,
+    name: 'Mackeral Fish Thali',
+    price: 150,
+    emoji: '🐟'
+  },
+  {
+    id: 20,
+    name: 'King Fish Special Thali',
+    price: 220,
+    emoji: '👑'
   }
+
 ]
 
 function StudentOrder() {
