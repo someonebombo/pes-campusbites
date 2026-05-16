@@ -224,7 +224,7 @@ function StudentOrder() {
         />
 
         <input
-          placeholder="Roll no"
+          placeholder="Roll No🆔"
           value={studentUsn}
           onChange={(e) => setStudentUsn(e.target.value)}
         />
